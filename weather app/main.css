@@ -9,11 +9,13 @@
     background: transparent;
 }
 
+
 #middle{
     background: linear-gradient(135deg ,#00feba ,#5b548a);
     margin: 100px auto 0;
     border-radius: 20px;
 }
+
 
 #img{
     border-radius: 150px;

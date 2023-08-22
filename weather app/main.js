@@ -5,6 +5,7 @@ function submit() {
   const apikey = "9dcc48a308ec20b11ae10538bff3c429";
   const apiurl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${searchbox}&appid=${apikey}`;
 
+  
   $.ajax({
     type: "GET",
     url: apiurl,
